@@ -28,7 +28,7 @@ class CustomButton extends StatelessWidget {
             shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.circular(defaultRadius))),
         child: Text(
-          'Get Started',
+          title,
           style: whiteTextStyle.copyWith(fontSize: 18, fontWeight: medium),
         ),
       ),
